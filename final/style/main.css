@@ -1,0 +1,10 @@
+:root {
+    --primary: #7D008C;
+    --secondary: #A346AE;
+    --accent: #F2BE2D;
+}
+
+header {
+    height: 100vh;
+    position: absolute;
+}
