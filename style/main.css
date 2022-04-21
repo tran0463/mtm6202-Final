@@ -139,6 +139,10 @@ ul li a {
 
 /* block styles */
 
+.sel {
+    border-left: 4px solid var(--accent);
+}
+
 header {
     background-color: var(--secondary);
     height: 100vh;
@@ -148,10 +152,11 @@ header {
 }
 
 main {
-    padding-left: 150px;
+    padding-left: 20%;
     text-align: center;
     display: flex;
     flex-direction: column;
+    min-width: 30%;
 }
 
 .content {
@@ -164,6 +169,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-left: 20%;
     background-color: var(--primary);
     height: 100px
 }
@@ -188,7 +194,8 @@ footer {
 .content img {width: 50%;}
 
 ul li:not(:first-child) {
-    padding: 10px 0 10px 80px;
+    padding: 10px 0 10px 0;
+    margin-left: 80px;
 }
 
 /* Style the button that is used to open and close the collapsible content */
@@ -275,7 +282,7 @@ margin-top: 20px;}
 }
 
 .minh {
-    width: 800px;
+    width: 50%;
 }
 
 .skip {
@@ -334,9 +341,6 @@ margin-top: 20px;}
         box-shadow: var(--secondary) -30px 0 0;
         margin: 0;padding: 0;
     }
-
-    ul li a {
-    }
     
     h1 {
         font-family: fit, sans-serif;
@@ -371,7 +375,11 @@ margin: 0;padding: 0;
     margin-top: 15px;
 }
 article {
-    max-width: 80%;
+    max-width: 50%;
+    margin: auto;
+}
+.minh {
+    width: 50%;
     margin: auto;
 }
 
