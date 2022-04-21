@@ -117,12 +117,14 @@ a {
     color: var(--accent);
 }
 .link {
+    display: inline-block;
     border-radius: 0;
     border: none;
     background-color: var(--primary);
-    margin: 15px;
+    margin: 20px;
     padding: 10px 20px;
     font-size: 1.2em;
+    font-family: neuzeit-grotesk, sans-serif;
 }
 
 .link:hover {
@@ -133,15 +135,11 @@ a {
 ul li a {
     text-decoration: none;    
     color: var(--accent);
-    font-family: 'Roboto', sans-serif;
+    font-family: neuzeit-grotesk, sans-serif;
     font-weight: 600;
 }
 
 /* block styles */
-
-.sel {
-    border-left: 4px solid var(--accent);
-}
 
 header {
     background-color: var(--secondary);
