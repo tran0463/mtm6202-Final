@@ -286,16 +286,19 @@ margin-top: 20px;}
 .skip {
     position: absolute;
     top: -30px;
-    color: black;
-    border: solid 3px var(--secondary);
+    color: white;
+    border: solid 5px blue;
+    font-size: 1.2em;
+    font-weight: 700;
 }
 
 .skip:focus{
     position: absolute;
+    border: solid 5px blue;
     height: 30px;
-    width: 10%;
+    width: 180px;
     margin: auto;
-    left: 45%;
+    left: 0px;
     text-align: center;
     top: 0px
 }
